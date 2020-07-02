@@ -3,11 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
     <title>Desarrollo 01</title>
+    <script src="js/codigo.js"></script>
 </head>
-<body>
-    <h1>Desarrollo 01</h1>
-    <a href="index.html">Volver a la pagina principal</a>
+<body class="fondo01">
+    <form action="" name="curso">
+        <table align="center" class="tabla01">
+            <tr>
+                <td colspan="2" class="seccion01">Clasificacion de Estudiantes</td>
+            </tr>
+            <tr>
+                <td>Nombre:</td>
+                <td><input type="text" name="nombre" id="nombre"></td>
+            </tr>
+            <tr>
+                <td>Promedio:</td>
+                <td><input type="number" name="promedio" id="promedio" min="0" max="20" pattern="[0-9]" required></td>
+            </tr>
+            <tr>
+                <td><input type="button" name="btn1" value="Limpiar" onclick="limpiar01()"></td>
+                <td><input type="button" name="btn2" value="Aceptar" onclick="categorizar()"></td>
+            </tr>
+            <tr>
+                <td>Categoria:</td>
+                <td><input type="text" name="cat" id="cat" readonly="true"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><a href="index.html">Volver a la pagina principal</a></td>
+            </tr>
+        </table>
+    </form>
     
 </body>
 </html>

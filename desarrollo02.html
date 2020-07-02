@@ -3,11 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/codigo.js"></script>
     <title>Desarrollo 02</title>
 </head>
-<body>
-    <h1>Desarrollo 02</h1>
-    <a href="index.html">Volver a la pagina principal</a>
-    
+<body class="fondo02">
+    <form action="" name="bonos">
+        <table align="center" class="tabla02">
+            <tr>
+                <td colspan="5" class="seccion02">Calculo de bonificaciones</td>
+            </tr>
+            <tr>
+                <td>categoria del trabajador:</td>
+                <td><input type="radio" name="categ">A</td>
+                <td><input type="radio" name="categ">B</td>
+                <td><input type="radio" name="categ">C</td>
+                <td><input type="radio" name="categ">D</td>
+            </tr>
+            <tr>
+                <td>Cantidad de hijos</td>
+                <td colspan="4"><input type="number" name="hijos" id="hijos" min="0"></td>
+            </tr>
+            <tr>
+                <td>Condicion laboral:</td>
+                <td colspan="2"><input type="radio" name="condi">Contratado (10%)</td>
+                <td colspan="2"><input type="radio" name="condi">Nombrado (15%)</td>
+            </tr>
+            <tr>
+                <td><input type="button" name="btn1" value="Limpiar" onclick="limpiar01()"></td>
+                <td colspan="4"><input type="button" name="btn2" value="Aceptar" onclick="calcular01()"></td>
+            </tr>
+            <tr>
+                <td>Bono por cantidad de hijos:</td>
+                <td colspan="4"><input type="text" name="bonoH" id="bonoH" readonly="true"></td>
+            </tr>
+            <tr>
+                <td>Bono por condicion laboral:</td>
+                <td colspan="4"><input type="text" name="bonoC" id="bonoC" readonly="true"></td>
+            </tr>
+            <tr>
+                <td>Bono total:</td>
+                <td colspan="4"><input type="text" name="bonoT" id="bonoT" readonly="true"></td>
+            </tr>
+            <tr>
+                <td colspan="5"><a href="index.html">Volver a la pagina principal</a></td>
+            </tr>
+        </table>
+    </form>
+
 </body>
 </html>

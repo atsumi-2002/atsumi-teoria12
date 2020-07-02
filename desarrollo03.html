@@ -3,11 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/codigo.js"></script>
     <title>Desarrollo 03</title>
+
 </head>
-<body>
-    <h1>Desarrollo 03</h1>
-    <a href="index.html">Volver a la pagina principal</a>
+<body class="fondo03">
+    <form action="" name="pagas">
+        <table align="center" class="tabla03">
+            <tr>
+                <td colspan="2" class="seccion03">Registro de sueldos</td>
+            </tr>
+            <tr>
+                <td>importe de venta mensual</td>
+                <td><input type="number" name="mes" id="mes"></td>
+            </tr>
+            <tr>
+                <td>Cantidad de hijos escolares</td>
+                <td><input type="number" name="hijos" id="hijos"></td>
+            </tr>
+            <tr>
+                <td><input type="button" name="btn1" value="Limpiar" onclick="limpiar03()"></td>
+                <td><input type="button" name="btn2" value="calcular" onclick="calcular02()"></td>
+            </tr>
+            <tr>
+                <td>comision:</td>
+                <td><input type="text" name="com" id="com" readonly="true"></td>
+            </tr>
+            <tr>
+                <td>Bonificación:</td>
+                <td><input type="text" name="bono" id="bono" readonly="true"></td>
+            </tr>
+            <tr>
+                <td>Sueldo bruto:</td>
+                <td><input type="text" name="sueldoB" id="sueldoB" readonly="true"></td>
+            </tr>
+            <tr>
+                <td>Descuento:</td>
+                <td><input type="text" name="desc" id="desc" readonly="true"></td>
+            </tr>
+            <tr>
+                <td>Sueldo Neto:</td>
+                <td><input type="text" name="sueldoN" id="sueldoN" readonly="true"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><a href="index.html">Volver a la pagina principal</a></td>
+            </tr>
+        </table>
+    </form>
     
 </body>
 </html>

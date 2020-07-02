@@ -1,0 +1,39 @@
+.fondo01{
+    background-color: cadetblue;
+}
+.tabla01{
+    background-color: darkkhaki;
+    border: darkolivegreen 5px solid;
+}
+.seccion01{
+    background-color: darkolivegreen;
+    text-align: center;
+    border: darkolivegreen 5px solid;
+    color: honeydew;
+}
+.fondo02{
+    background-color:lemonchiffon;
+}
+.tabla02{
+    background-color: navajowhite;
+    border: peru 5px solid;
+}
+.seccion02{
+    background-color: peru;
+    text-align: center;
+    border: peru 5px solid;
+    color: honeydew;
+}
+.fondo03{
+    background-color: rgb(162, 192, 236);
+}
+.tabla03{
+    background-color: rgb(137, 179, 219);
+    border: rgb(85, 104, 190) 5px solid;
+}
+.seccion03{
+    background-color: rgb(85, 104, 190);
+    text-align: center;
+    border: rgb(85, 104, 190) 5px solid;
+    color: honeydew;
+}
